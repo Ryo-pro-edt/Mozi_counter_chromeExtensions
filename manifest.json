@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "文字数＆バイト数チェッカー",
+    "version": "1.0",
+    "description": "選択したテキストの文字数とバイト数を左上に表示します。",
+    "content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }
+]
+}
